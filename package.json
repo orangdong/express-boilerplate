@@ -1,0 +1,29 @@
+{
+  "name": "express-boilerplate",
+  "version": "1.0.0",
+  "description": "Express boilerplate for building fast & robust nodejs application",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Aviel (orangdong @ github)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orangdong/express-boilerplate.git"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
