@@ -15,6 +15,9 @@
     "NodeJS"
   ],
   "author": "Aviel (orangdong @ github)",
+  "prisma": {
+    "schema": "db/main/schema.prisma"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -24,9 +27,11 @@
     "eslint": "^8.27.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "prisma": "^4.6.1"
   },
   "dependencies": {
+    "@prisma/client": "^4.6.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
